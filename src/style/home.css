@@ -1,0 +1,45 @@
+.home{
+    overflow:hidden;
+    max-width: 100%;
+    height: 100vh;
+    background: url(../assets/image-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: #fff;
+}
+.home-title{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-Fraunces);
+}
+
+.title-slogan{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 6rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+@media (max-width: 717px) {
+    .home-title{
+        margin-top: 5rem;
+    }
+    .title-slogan{
+        margin-bottom: 4rem;
+    }
+}
+@media (max-width: 460px) {
+    .home-title{
+        margin-top: 4rem;
+    }
+    .title-slogan{
+        font-size: 3rem;
+    }
+}

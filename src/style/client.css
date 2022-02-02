@@ -1,0 +1,69 @@
+.client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0 2.4rem;
+}
+
+.client-photo{
+    margin-bottom: 4rem;
+}
+
+.client-photo img{
+    width: 100%;
+    height: auto;
+    max-width: 5rem;
+    border-radius:50%;
+}
+
+.client-info{
+    font-family: var(--font-Barlow);
+    color:hsl(232, 10%, 55%);
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.client-name{
+    font-family: var(--font-Fraunces);
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.client-pos{
+    font-family: var(--font-Barlow);
+    font-size: 0.8rem;
+    color:hsl(210, 4%, 67%);
+}
+
+@media (max-width: 688px){
+    .client{
+        padding:0 1.7rem;
+    }
+}
+@media (max-width: 608px){
+    .client-info{
+        line-height: 1.7rem;
+        font-size: 1rem;
+    }
+    .client-photo{
+        margin-bottom: 2.5rem;
+    }
+}
+@media (max-width:438px){
+    .client{
+        margin-bottom: 4rem;
+    }
+    .client-info{
+        line-height: 2rem;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .client-photo{
+        margin-bottom: 2rem;
+    }
+}
+
