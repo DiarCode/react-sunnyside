@@ -1,6 +1,6 @@
 {
-  "homepage":"https://diarcode.github.io/react-sunnyside",
-  "name": "react-sunnyside",
+  "homepage":"https://diarcode.github.io/sunnyside",
+  "name": "sunnyside",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
