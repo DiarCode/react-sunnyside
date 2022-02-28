@@ -3,7 +3,6 @@ import { Link } from 'react-scroll';
 import Logo from '../assets/logo.svg';
 import Burger from '../assets/icon-hamburger.svg';
 import '../style/navbar.css';
-import cl from './classes.module.css'
 import BurgerMenu from './BurgerMenu';
 
 const Navbar = () => {
