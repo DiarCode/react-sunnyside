@@ -1,0 +1,353 @@
+.posts{
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.posts-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.item-text{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding:10rem;
+}
+
+.text-title{
+    font-family: var(--font-Fraunces);
+    color: hsl(212, 27%, 19%);
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.text-info{
+    color: hsla(232, 10%, 55%, 0.904);
+    font-family: var(--font-Barlow);
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-bottom: 3rem;
+}
+
+.text-learn{
+    cursor: pointer;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: var(--font-Fraunces);
+    color: hsl(212, 27%, 19%);
+}
+
+.text-learn-yellow:hover{
+   border-bottom: 0.6rem solid hsl(51, 100%, 49%);
+}
+.text-learn-red:hover{
+    border-bottom: 0.6rem solid hsl(7, 99%, 70%);
+ }
+
+.item-photo{
+    width: 50%;
+}
+
+.item-photo img{
+    width: 100%;
+    height: auto;
+}
+
+.post-item-fruits{
+    display: flex;
+}
+
+.item-fruits{
+    width: 50%;
+}
+
+.cherry{
+    background: url("/src/assets/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.orange{
+    background: url("/src/assets/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fruits-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 26rem;
+    margin-bottom:4rem;
+    padding: 0 12rem;
+}
+
+.fruits-title{
+    font-family: var(--font-Fraunces);
+    color: hsl(212, 27%, 19%);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fruits-info{
+    text-align: center;
+    font-family: var(--font-Barlow);
+    color:hsl(213, 9%, 39%);
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+
+@media (max-width:1323px){
+    .item-text{
+        padding:6rem;
+    }
+    .fruits-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 26rem;
+        margin-bottom:4rem;
+        padding: 0 12rem;
+    }
+}
+
+@media (max-width:1264px){
+    .fruits-text{
+        margin-top: 20rem;
+        padding:0 7rem;
+    }
+    
+}
+
+@media (max-width:1083px){
+    .item-text{
+        padding:4rem;
+    }
+    .fruits-text{
+        margin-top: 18rem;
+        padding:0 5rem;
+    }
+}
+@media (max-width:949px){
+    .text-title{
+        font-size: 2.5rem;
+    }
+    .text-info{
+        font-size: 1rem;
+    }
+    .item-text{
+        padding:3rem;
+    }
+    .fruits-text{
+        margin-top: 17rem;
+        padding:0 3rem;
+    }
+    .fruits-title{
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+    .fruits-info{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:848px){
+    .text-title{
+        font-size: 2rem;
+    }
+    .text-info{
+        font-size: 0.9rem;
+    }
+    .item-text{
+        padding:2rem;
+    }
+    .fruits-text{
+        margin-top: 15rem;
+        padding:0 2.5rem;
+    }
+    .fruits-title{
+        font-size: 1.6rem;
+        margin-bottom: 0.7rem;
+    }
+    .fruits-info{
+        font-size: 0.9rem;
+        line-height:1.6;
+    }
+}
+@media (max-width:736px){
+    .text-title{
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    }
+    .text-info{
+        font-size: 0.9rem;
+        margin-bottom: 1.2rem;
+    }
+    .item-text{
+        padding:2rem;
+    }
+
+    
+    .post-item-fruits{
+        flex-direction: column;
+    }
+    
+    .item-fruits{
+        width: 100%;
+        height: 35rem;
+    }
+    
+    .fruits-text{
+        margin-top: 24rem;
+        padding:0 8rem;
+    }
+    .fruits-title{
+        font-size: 1.6rem;
+        margin-bottom: 0.7rem;
+    }
+    .fruits-info{
+        font-size: 1.1rem;
+        line-height:2;
+    }
+}
+@media (max-width:626px){
+    .text-title{
+        font-size: 1.8rem;
+        margin-bottom: 1.2rem;
+    }
+    .text-info{
+        font-size: 0.85rem;
+        line-height: 1.1rem;
+        margin-bottom: 1.2rem;
+    }
+    .item-text{
+        padding:2rem;
+    }
+    .text-learn{
+        font-size: 0.9rem;
+    }
+    .fruits-text{
+        margin-top: 23rem;
+        padding:0 3rem;
+    }
+    .orange{
+        background-size: cover;
+        background-position: center center;
+    }
+    .cherry{
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+@media (max-width:550px){
+    .text-title{
+        font-size: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+    .text-info{
+        font-size: 0.75rem;
+        line-height: 1.1rem;
+        margin-bottom: 1.2rem;
+    }
+    .item-text{
+        flex-flow: column;
+        padding:1.7rem;
+    }
+    .text-learn{
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width:503px){
+    .posts-item{
+    }
+    .text-title{
+        font-size: 1.3rem;
+    }
+    .text-info{
+        font-size: 0.6rem;
+    }
+    .item-text{
+        padding:1.4rem;
+    }
+    .text-learn{
+    }
+    .text-photo{
+    }
+}
+@media (max-width:433px){
+    .posts-item{
+    }
+    .text-title{
+        font-size: 1.1rem;
+        margin-bottom: 0.7rem;
+    }
+    .text-info{
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+        margin-bottom: 0.7rem;
+    }
+    .item-text{
+        padding:1.4rem;
+    }
+    .text-learn{
+    }
+    .text-photo{
+    }
+}
+@media (max-width:390px){
+    .posts-item{
+        display: flex;
+        justify-content: start;
+    }
+    .text-title{
+        font-size: 2rem;
+        margin-bottom: 1.7rem;
+    }
+    .text-info{
+        font-size: 1rem;
+        line-height: 1.7rem;
+        margin-bottom: 1.7rem;
+    }
+    .item-text{
+        width: 100%;
+        padding: 0;
+        order: 2;
+        padding: 2.5rem 2rem;
+        text-align: center;
+        align-items: center;
+    }
+    .text-learn{
+        font-size: 1rem;
+    }
+    .text-photo{
+        width: auto;
+        order: 1;
+    }
+    .item-photo img{
+        width: auto;
+        max-width:390px;
+    }
+
+    .fruits-text{
+        padding: 0 2rem;
+    }
+    .fruits-info{
+        line-height: 1.6;
+    } 
+    .fruits-title{
+        margin-bottom: 1.1rem;
+    }
+}
+
+
